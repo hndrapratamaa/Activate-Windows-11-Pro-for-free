@@ -18,6 +18,9 @@ defaults:
 sass:
   style: compressed
 
+include:
+  - _headers
+  
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -26,3 +29,4 @@ exclude:
 
 baseurl: "/windows-docs"
 url: "https://hndrapratamaa.github.io"
+
