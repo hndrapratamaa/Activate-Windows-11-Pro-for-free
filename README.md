@@ -10,8 +10,8 @@ Repositori ini berisi panduan teknis untuk:
 
 | Judul Dokumentasi | Deskripsi | Link |
 |-------------------|-----------|------|
-| **Windows 11 ke Versi Pro Gratis** | Panduan upgrade Windows 11 ke edisi Pro tanpa biaya | [Baca →](Windows 11 ke Versi Pro Gratis.md) |
-| **Instalasi Microsoft Office** | Instal Word, PowerPoint, & Excel versi terkini | [Baca →](Panduan Mengunduh dan Menginstal Microsoft Office.md) |
+| **Windows 11 ke Versi Pro Gratis** | Panduan upgrade Windows 11 ke edisi Pro tanpa biaya | [Baca →](https://github.com/hndrapratamaa/windows-docs/blob/main/Windows%2011%20ke%20Versi%20Pro%20Gratis.md) |
+| **Instalasi Microsoft Office** | Instal Word, PowerPoint, & Excel versi terkini | [Baca →](https://github.com/hndrapratamaa/windows-docs/blob/main/Panduan%20Mengunduh%20dan%20Menginstal%20Microsoft%20Office.md) |
 
 ---
 
