@@ -8,17 +8,27 @@
 <body>
     <div class="tabs">
         <nav class="tabs--nav">
-            <span data-tab="0" class="active">Windows 11 Pro</span>
-            <span data-tab="1">Microsoft Office</span>
+            <span class="active" data-tab="windows">Windows 11 Pro</span>
+            <span data-tab="office">Microsoft Office</span>
         </nav>
         
         <div class="tabs--content">
-            <!-- Konten akan diisi otomatis -->
             {{ content }}
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="{{ "/assets/js/neumorphic-tabs.js" | relative_url }}"></script>
+    
+    <!-- Tambahkan script khusus untuk handle konten -->
+    <script>
+    $(document).ready(function() {
+        $('[data-tab]').on('click', function() {
+            const tabId = $(this).data('tab');
+            $('.tab-content').hide();
+            $(`[data-tab="${tabId}"]`).show();
+        });
+    });
+    </script>
 </body>
 </html>
