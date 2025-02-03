@@ -3,14 +3,12 @@ layout: default
 title: Dokumentasi Windows & Office
 ---
 
-<div class="tab-content" data-tab="windows">
-# Windows 11 ke Versi Pro Gratis
-
-{% include_relative Windows\ 11\ ke\ Versi\ Pro\ Gratis.md %}
+<div class="tab-content active" data-tab="windows">
+{% capture windows_content %}{% include_relative Windows-11-Pro.md %}{% endcapture %}
+{{ windows_content | markdownify }}
 </div>
 
-<div class="tab-content" data-tab="office" style="display:none">
-# Panduan Mengunduh dan Menginstal Microsoft Office
-
-{% include_relative Panduan\ Mengunduh\ dan\ Menginstal\ Microsoft\ Office.md %}
+<div class="tab-content" data-tab="office">
+{% capture office_content %}{% include_relative Panduan-Office.md %}{% endcapture %}
+{{ office_content | markdownify }}
 </div>
