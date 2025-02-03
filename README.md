@@ -1,9 +1,8 @@
 # 🪟 Dokumentasi Windows & Office
 
-![Preview Dokumentasi](https://github.com/hndrapratamaa/windows-docs/blob/main/assets/preview.png)  
-*(Ganti link dengan screenshot aktual dokumentasi Anda)*
+*(🌐 **Live Demo**: [Lihat di GitHub Pages](https://hndrapratamaa.github.io/windows-docs/))*
 
-🌐 **Live Demo**: [Lihat di GitHub Pages](https://hndrapratamaa.github.io/windows-docs/)
+![Preview Dokumentasi](https://github.com/hndrapratamaa/windows-docs/blob/main/assets/preview.png)
 
 ---
 
