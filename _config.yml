@@ -1,0 +1,25 @@
+# _config.yml
+title: Dokumentasi Windows & Office
+description: Panduan Upgrade Windows 11 Pro dan Instalasi Office
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      custom_css: /assets/css/neumorphic.css
+      custom_js: /assets/js/neumorphic-tabs.js
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
